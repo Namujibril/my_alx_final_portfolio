@@ -66,9 +66,6 @@ const App = () => {
     }
   }
 
-  obj = {
-    name: 'muhd',
-  }
   const searchHandler = (e) => {
     setSearch(e.target.value)
   }

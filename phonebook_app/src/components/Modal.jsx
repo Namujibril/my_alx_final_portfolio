@@ -23,8 +23,8 @@ const Modal = ({
     return null
   } else if (
     message ===
-      `${newName} is already added to the phonebook, replace the old number with the new one?` ||
-    message === `Delete Nazifi`
+      `${newName} is already added to the phonebook, replace the old number with the new one` ||
+    message === `Delete ${message.split(' ')[1]}`
   ) {
     return (
       <div role='alert' className='alert alert-success'>
