@@ -42,7 +42,7 @@ const App = () => {
       setNumber('')
     } else if (findPersonNumber) {
       setMessage(
-        `${newName} is already added to the phonebook, replace the old number with the new one?`
+        `${newName} is already added to the phonebook, replace the old number with the new one`
       )
     } else {
       const newPerson = {
